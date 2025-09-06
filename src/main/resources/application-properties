@@ -1,0 +1,16 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/SE?useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=root123
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+logging.level.com.odoo=DEBUG
+logging.level.io.vertx=DEBUG
+
+logging.file.name=logs/myapp.log
+logging.file.path=logs
+logging.pattern.file=%d{yyyy-MM-dd HH:mm:ss} - %msg%n
